@@ -1,0 +1,17 @@
+E E' T T' F
++ * ( ) i @ #
+E T E'
+E' + T E' | @
+T F T'
+T' * F T' | @
+F i | ( E )
+#
+
+S A B
+b g e f d @ #
+S A B f
+A B b S | e
+B d A g | @
+#
+
+

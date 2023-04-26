@@ -1,0 +1,11 @@
+S Q
+S U a
+S V b
+U V b
+V U a
+U Q a
+V Q b
+Q Q a
+Q Q b
+# # #
+

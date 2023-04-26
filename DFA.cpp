@@ -47,9 +47,9 @@ void DFA::init(int x)
 	ifs.open("./DFA.txt",ios::in);
 	char *a=(char*)malloc(20),*b=(char*)malloc(20); char c;
 
-	ifs>>a>>b;
+	ifs>>a;
 	beg=getId(a);//开始符号
-	while(ifs>>a) end.push_back(getId(a));//结束符号
+	while(ifs>>b&&strcmp(b,"#")!=0) end.push_back(getId(b));//结束符号
 
 	while(!ifs.eof()&&strcmp(a,"#")!=0){
 		add(a,b,c);
